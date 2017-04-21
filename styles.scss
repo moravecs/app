@@ -1,0 +1,115 @@
+body {
+	font-family: 'Lato', sans-serif;
+	overflow-x:hidden;
+	-webkit-font-smoothing: antialiased;
+	background-color: #f7f7f7;	
+}
+section {
+  min-width: 100%;
+  position: relative;
+  width: 100%;
+  padding: 20px 0;
+}
+
+/* Breadcrumb */
+
+
+.breadcrumb-section .breadcrumb {
+//	margin-top: 20px;
+//	margin-bottom: 0;
+	margin: 10px 20px 20px 30px;;
+	padding: 0;
+}
+.breadcrumb {
+	background-color: none;
+	color: #000 !important;
+	padding-left: 10px;
+}
+
+.breadcrumb li,
+.breadcrumb li a {
+//	color: #000;
+	font-weight: 300;
+}
+
+
+
+.section {
+	background-color:#fff;
+	border-radius:4px;
+	padding:5px 10px 20px 15px;
+	margin-bottom:00px;
+}
+
+#header .navbar-default {
+    padding: 4px 0;
+    background: #000;
+    border: none;
+	margin-bottom: 0px;
+ }
+
+
+.navbar-brand {
+	padding: 6px 15px;
+	height: inherit;
+}
+
+.navbar {
+	margin: 0;
+}
+
+
+.h1-header { color: #ffffff;}
+
+
+.tab-content{
+	margin: 20px 0px;
+}
+.breadcrumb > li + li:before {
+    color: #000;font-size: 130%;
+    content: "» ";
+    padding: 0 5px;
+}
+.header-form {text-align: center; margin-bottom: 0px; padding: 5px 5px 10px 5px; background-color: #5cb85c; color: #fff;}
+#impartido img{margin: 20px auto;}
+#cupon{padding-top: 20px;}
+#left-column{border: 4px solid #f7f7f7; border-top:0px;}
+#fondo-social, #gobierno-espana {/*border: 1px solid red;*/}
+
+
+/* xs */
+@media (max-width: 767px) {
+	h1 {
+		font-size:20px;
+	}
+	.nav-tabs {margin-left: -5% !important; width: 100%}
+	.nav-tabs li{
+		margin-top: 20px;
+		width: 49%;
+		font-size: 18px;
+		border-left:none;
+	}
+	.nav-tabs li a{
+	border: 1px solid transparent;
+
+	}
+	#resumen,#temario, #relacionados,  .solicitudInfo{
+		font-size: 18px;
+		
+	}
+	#requisitos { font-size: 14px;}
+	#relacionados ul{list-style: none; padding-left: 0px;}
+	.checkbox, .checbox input {
+		padding: 0.4375rem 0;
+		margin-bottom: 0;
+		float: left !important;
+	}
+	input[type=checkbox] {
+	 width: 30px; height: 33px;
+	// -webkit-border-radius: 22px; -moz-border-radius: 22px; border-radius: 22px;
+	 border: 1px solid transparent;
+		clear: none; display: inline; float: left;
+	}
+	#left-column{border: 20px solid #f7f7f7; border-left:0px;border-right: 0px;}
+
+}
