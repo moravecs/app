@@ -76,6 +76,17 @@ section {
 #left-column{border: 4px solid #f7f7f7; border-top:0px;}
 #fondo-social, #gobierno-espana {/*border: 1px solid red;*/}
 
+	.checkbox {
+		padding: 0.4375rem 0;
+		margin-bottom: 0;
+		float: left !important;
+	}
+	input[type=checkbox] {
+	 width: 30px; height: 33px;
+	// -webkit-border-radius: 22px; -moz-border-radius: 22px; border-radius: 22px;
+	 border: 1px solid transparent;
+		clear: none; display: inline; float: left;
+	}
 
 /* xs */
 @media (max-width: 767px) {
@@ -98,18 +109,7 @@ section {
 		
 	}
 	#requisitos { font-size: 14px;}
-	#relacionados ul{list-style: none; padding-left: 0px;}
-	.checkbox, .checbox input {
-		padding: 0.4375rem 0;
-		margin-bottom: 0;
-		float: left !important;
-	}
-	input[type=checkbox] {
-	 width: 30px; height: 33px;
-	// -webkit-border-radius: 22px; -moz-border-radius: 22px; border-radius: 22px;
-	 border: 1px solid transparent;
-		clear: none; display: inline; float: left;
-	}
+	#relacionados ul{list-style: none; padding-left: 20px;}
 	#left-column{border: 20px solid #f7f7f7; border-left:0px;border-right: 0px;}
 
 }
