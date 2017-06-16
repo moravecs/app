@@ -1,0 +1,172 @@
+body {
+	font-family: 'Lato', sans-serif;
+	overflow-x:hidden;
+	-webkit-font-smoothing: antialiased;
+	background-color: #f7f7f7;	
+}
+section {
+  min-width: 100%;
+  position: relative;
+  width: 100%;
+  padding: 20px 0;
+}
+
+/* Breadcrumb */
+
+
+.breadcrumb-section .breadcrumb {
+//	margin-top: 20px;
+//	margin-bottom: 0;
+	margin: 10px 20px 20px 30px;;
+	padding: 0;
+}
+.breadcrumb {
+	background-color: none;
+	color: #000 !important;
+	padding-left: 10px;
+}
+
+.breadcrumb li,
+.breadcrumb li a {
+//	color: #000;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+
+
+.section {
+	background-color:#fff;
+	border-radius:4px;
+	padding:5px 10px 20px 15px;
+	margin-bottom:00px;
+}
+
+#header .navbar-default {
+    padding: 4px 0;
+    background: #000;
+    border: none;
+	margin-bottom: 0px;
+ }
+#curso-contenido-cuerpo{
+	font-size: 16px;
+}
+
+.navbar-brand {
+	padding: 6px 15px;
+	height: inherit;
+}
+
+.navbar {
+	margin: 0;
+}
+
+
+.h1-header { color: #ffffff;}
+
+
+.tab-content{
+	margin: 20px 0px;
+}
+.breadcrumb > li + li:before {
+    color: #000;font-size: 130%;
+    content: "» ";
+    padding: 0 5px;
+}
+.header-form {text-align: center; margin: 0px; padding: 1px 5px 10px 5px; background-color: #5cb85c; color: #fff;}
+#impartido img{margin: 20px auto;}
+#cupon{padding-top: 20px;}
+#left-column{border-right: 1px solid #f7f7f7; border-top:0px;}
+#fondo-social, #gobierno-espana {/*border: 1px solid red;*/}
+
+.requisitos-content{border-top: 1px solid #f7f7f7; margin: 0 5px;}
+.checkbox {
+	padding: 0.4375rem 0;
+	margin-bottom: 0;
+	float: left !important;
+}
+input[type=checkbox] {
+ width: 30px; height: 33px;
+// -webkit-border-radius: 22px; -moz-border-radius: 22px; border-radius: 22px;
+ border: 1px solid transparent;
+	clear: none; display: inline; float: left;
+}
+
+/* xs */
+@media (max-width: 767px) {
+	h1 {
+		font-size:20px;
+	}
+	label {font-size: 16px;}
+	#nav{z-index: 10;}
+	#nav.affix {
+   position: fixed;
+   top: 0;
+   z-index:10;
+		width: 105%;
+   -webkit-transition: all .6s ease-in-out;
+}
+	#nav.affix .navbar-toggle{visibility: hidden;}
+	#nav.affix .goSolicitud{visibility:visible;}
+
+	.nav-tabs {margin-left: -5% !important; width: 110%}
+	.nav-tabs li{
+		margin-top: 20px;
+		width: 49%;
+		font-size: 18px;
+		border-left:none;
+	}
+	.nav-tabs li a{
+	border: 1px solid transparent;
+
+	}
+	#resumen,#temario, #relacionados,  .solicitudInfo, {
+		font-size: 18px;
+		
+	}
+	#requisitos, #solicitudPost { font-size: 16px;}
+	#relacionados ul{list-style: none; padding-left: 20px;}
+	#left-column{border: 20px solid #1C73A5; border-left:0px;border-right: 0px;}
+	.info p.h3{font-size: 18px;}
+
+.post-tabs{
+	padding:0;
+  margin-bottom:0;
+  list-style-type: none;
+  overflow: hidden;
+}
+.post-tabs li{
+  display: inline;
+}
+.post-tabs a{
+  display: block;
+  z-index: 1;
+  text-decoration: none;
+  width: 100%;
+  padding: 10px 15px;
+  float:  left;
+  text-align:center;
+  border-bottom: 1px solid #dddddd;
+  text-shadow: 1px 1px 0 white;
+  transition:color 0.3s ease;
+  color:#3b5998;
+}
+.post-tabs a:hover{
+  color:#e95c40;
+}
+.post-tabs li.active a{
+  border-bottom: 0;
+  color: #444444;
+  z-index: 2;
+}
+
+.post-tabs li.active:first-child a {
+  border-right: 1px solid #dddddd;
+  box-shadow: inset -1px 0px 1px 0px rgba(0,0,0,0.4);
+}
+.post-tabs li.active:last-child a{
+  border-left: 1px solid #dddddd;
+  box-shadow: inset 1px 0px 1px 0px rgba(0,0,0,0.4);
+}
+	.goSolicitud{position:relative;float:right;margin-top:18px;margin-right:-20px;margin-bottom:8px;}
+}
